@@ -3,7 +3,7 @@ const ball= document.getElementById('image');
 let angle=0;
 
 function rotate(){
-    angle+=4;
+    angle+=2;
     ball.style.transform='rotate('+angle+'deg)';
     requestAnimationFrame(rotate);
 }
