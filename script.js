@@ -120,7 +120,7 @@ function resetSprite() {
     currentFrame = 0;
     moving = false;
     direction = null;
-    alert('It Looks like your Journey ends here trainer, Better Luck Next Time');
+    alert('It Looks like your Journey ends here trainer, Better Luck Next Time\nYour Score is: ' + score);
     score = 0;
     previousScore = 0;
     moveDelay = 12;
